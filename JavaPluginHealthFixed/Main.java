@@ -23,7 +23,7 @@ public class Main extends JavaPlugin {
 
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args) {
-        if (label.equalsIgnoreCase("reset")) {
+        if ("reset".equalsIgnoreCase(label)) {
 
             if (sender instanceof Player) {
 
